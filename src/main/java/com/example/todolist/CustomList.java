@@ -26,6 +26,9 @@ public class CustomList {
     private String author;
     private String status;
 
+    public CustomList(){
+    }
+
     public CustomList(String title, Date date, String description, String author) {
         this.title = title;
         this.date = date;
